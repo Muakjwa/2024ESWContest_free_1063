@@ -1,0 +1,12 @@
+__pycache__
+*/__pycache__/*
+
+file_descriptor.py
+
+steering_wheel/data
+*/steering_wheel/data/*
+
+radar_AI/preprocess/module/fft_spectrum.py
+
+old
+*/old/*

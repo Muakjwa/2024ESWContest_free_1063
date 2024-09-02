@@ -1,0 +1,18 @@
+_target_ : 'HeartRate'
+
+config : 
+  sample_rate_Hz : 2e6
+  rx_mask : 1
+  # rx_mask : 3
+  tx_mask : 1 
+  tx_power_level : 31
+  if_gain_dB : 33
+  start_frequency_Hz : 58e9 
+  end_frequency_Hz : 63.5e9
+  num_samples_per_chirp : 256
+  num_chirps_per_frame : 1
+  chirp_repetition_time_s : 0.000150 
+  frame_repetition_time_s : 1 / 20
+
+constant : 
+  c : 3e8

@@ -1,0 +1,9 @@
+_target_ : 'HeRe'
+
+config:
+  alpha : 2000
+  tau : 0.0
+  K : 7 
+  DC : 0 
+  init : 1
+  tol : 1e-7
