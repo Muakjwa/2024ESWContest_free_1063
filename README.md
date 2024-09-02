@@ -43,8 +43,8 @@
 
 ## 2. 프로젝트 구현
 이 프로젝트는 운전자의 상태를 모니터링하고 적절한 피드백을 제공하기 위한 시스템으로, 세 가지 주요 컴포넌트로 구성되어 있습니다.
-<div align="center" style="font-weight: bold">
-Radar, Steering Wheel, Raspberry Pi
+<div align="center" >
+<strong>Radar, Steering Wheel, Raspberry Pi</strong>
 </div> <br>
 각각의 컴포넌트는 다음과 같은 기능을 수행합니다:
 <br>
