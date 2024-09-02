@@ -41,9 +41,10 @@
 - AI Model : Pytorch, Scikit-Learn
 - GUI : PySide6
 - Version & Issue Management : Github
-
+<!-- 
 ### Library
-`PySide6` `torchvision` `torch` `numpy` `sklearn` `omegaconf` `pandas` `mne` `matplotlib` `serial` `joblib`
+`PySide6` `torchvision` `torch` `numpy` `sklearn` `omegaconf` `pandas` `mne` `matplotlib` `serial` `joblib` -->
+<br>
 
 ## 2. 프로젝트 구현
 이 프로젝트는 운전자의 상태를 모니터링하고 적절한 피드백을 제공하기 위한 시스템으로, 세 가지 주요 컴포넌트로 구성되어 있습니다.
