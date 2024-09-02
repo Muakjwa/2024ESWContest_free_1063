@@ -1,5 +1,7 @@
 # DMS (Driver Monitoring System) based on FMCW Radar & Capacitive Touch Sensor
-![real_test](https://github.com/user-attachments/assets/35773330-7876-49be-815c-a971e254cf13)
+<div align="center">
+<img width="700" alt="alarm_principle" src="https://github.com/user-attachments/assets/35773330-7876-49be-815c-a971e254cf13">
+</div>
 
 <br>
 
@@ -9,7 +11,9 @@
 - 감지된 정보를 바탕으로 진동과 경고음을 통해 운전에 집중하도록 피드백을 제공합니다. 
 - 이를 통해 운전자의 안전한 운전을 돕는 스마트 시스템입니다.
 <br>
-<img width="748" alt="alarm_principle" src="https://github.com/user-attachments/assets/305e1c9a-682d-43ae-81a2-c6803cca21ef">
+<div align="center">
+<img width="500" alt="alarm_principle" src="https://github.com/user-attachments/assets/305e1c9a-682d-43ae-81a2-c6803cca21ef">
+</div>
 
 
 ## Team Member
