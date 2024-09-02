@@ -43,8 +43,8 @@
 
 ## 2. 프로젝트 구현
 이 프로젝트는 운전자의 상태를 모니터링하고 적절한 피드백을 제공하기 위한 시스템으로, 세 가지 주요 컴포넌트로 구성되어 있습니다.
-<div align="center">
-** Radar, Steering Wheel, Raspberry Pi **
+<div align="center" style="font-weight: bold">
+Radar, Steering Wheel, Raspberry Pi
 </div> <br>
 각각의 컴포넌트는 다음과 같은 기능을 수행합니다:
 <br>
@@ -57,9 +57,10 @@
 
 ### 2. Processing
 #### Raspberry Pi : 센서로부터 수집된 데이터를 기반으로 운전자의 상태를 예측합니다.
-<br> 
+
 레이더 데이터와 스티어링 휠 데이터를 딥러닝과 머신러닝 알고리즘에 적용하여 운전자의 존재, 심박수, 호흡수, 졸음 정도, 스티어링 휠 파지 여부 등을 판단합니다.
 판단된 정보는 아두이노와 GUI에 전달되어 운전자에게 피드백을 제공합니다.
+<br>
 
 <div align="center">
 <img width="800" alt="AI_model" src="https://github.com/user-attachments/assets/2180818a-d7d1-476d-ba45-c07b4a7febf7">
