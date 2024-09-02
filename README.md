@@ -11,9 +11,6 @@
 - 감지된 정보를 바탕으로 진동과 경고음을 통해 운전에 집중하도록 피드백을 제공합니다. 
 - 이를 통해 운전자의 안전한 운전을 돕는 스마트 시스템입니다.
 <br>
-<div align="center">
-<img width="500" alt="alarm_principle" src="https://github.com/user-attachments/assets/305e1c9a-682d-43ae-81a2-c6803cca21ef">
-</div>
 
 
 ## Team Member
@@ -44,7 +41,57 @@
 - AI Model : Pytorch, Scikit-Learn
 - Version & Issue Management : Github
 
-## 2. 프로젝트 구조
+## 2. 프로젝트 구현
+이 프로젝트는 운전자의 상태를 모니터링하고 적절한 피드백을 제공하기 위한 시스템으로, 세 가지 주요 컴포넌트로 구성되어 있습니다.
+<div align="center">
+Radar(레이더), Steering Wheel(스티어링 휠), 그리고 Raspberry Pi. 
+</div>
+각각의 컴포넌트는 다음과 같은 기능을 수행합니다:
+<br>
+
+### 1. Detection (탐지)
+Radar:
+<br>
+60GHz FMCW 레이더를 사용하여 운전자의 존재 여부, 심박수, 호흡수, 졸음 등을 측정합니다.
+
+<br><br>
+Steering Wheel (스티어링 휠):
+<br>
+직접 감지 방식의 HOD (Hands-Off Detection) 시스템을 활용합니다.
+정전용량 터치 센서를 통해 스티어링 휠 그립 상태를 확인합니다.
+<br><br>
+
+### 2. Processing (처리)
+Raspberry Pi:
+<br>
+센서로부터 수집된 데이터를 기반으로 운전자의 상태를 예측합니다.
+레이더 데이터와 스티어링 휠 데이터를 딥러닝과 머신러닝 알고리즘에 적용하여 운전자의 존재, 심박수, 호흡수, 졸음 정도, 스티어링 휠 파지 여부 등을 판단합니다.
+판단된 정보는 아두이노와 GUI에 전달되어 운전자에게 피드백을 제공합니다.
+
+<div align="center">
+<img width="800" alt="AI_model" src="https://github.com/user-attachments/assets/2180818a-d7d1-476d-ba45-c07b4a7febf7">
+</div>
+<br><br>
+
+### 3. Response (응답)
+Arduino (아두이노):
+<br>
+위험 상황에 따라 적절한 피드백을 제공합니다.
+비상시 진동 및 사이렌을 통해 경고를 전달합니다.
+<div align="center">
+<img width="600" alt="alarm_principle" src="https://github.com/user-attachments/assets/305e1c9a-682d-43ae-81a2-c6803cca21ef">
+</div>
+<br><br>
+
+GUI (그래픽 사용자 인터페이스):
+<br>
+시각적으로 판단된 정보를 운전자에게 제공합니다.
+그래프와 수치, 아이콘을 통해 운전자의 상태를 표현하며, 실제 차량의 대시보드 역할을 수행합니다.
+<div align="center">
+<img width="400" alt="alarm_principle" src="https://github.com/user-attachments/assets/971b03ce-9f23-44eb-8278-9072eaf38023">
+</div>
+
+## 3. 프로젝트 구조
 
 ```
 
@@ -94,7 +141,7 @@
 ├── file_descriptor.py
 ```
 
-## 3. 역할 분담
+## 4. 역할 분담
 
 ### 김대원
 - Build MCU Program
