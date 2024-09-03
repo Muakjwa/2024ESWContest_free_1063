@@ -21,7 +21,7 @@
 | :------: |  :------: | :------: | :-----: |
 | DGIST | DGIST | DGIST | DGIST |
 | Mechatronics | Computer Engineering | Computer Engineering | NeuroSicence |
-| [<img src="https://avatars.githubusercontent.com/u/176874399?v=4" height=150 width=150> <br/> @dw622](https://github.com/dw622) | [<img src="https://avatars.githubusercontent.com/u/94523712?s=400&v=4" height=150 width=150> <br/> @Muakjwa](https://github.com/Muakjwa) | [<img src="https://avatars.githubusercontent.com/u/149148774?v=4" height=150 width=150> <br/> @monkcat](https://github.com/monkcat) | [<img src="https://via.placeholder.com/100" width="150" height="150">] |
+| [<img src="https://avatars.githubusercontent.com/u/176874399?v=4" height=150 width=150> <br/> @dw622](https://github.com/dw622) | [<img src="https://avatars.githubusercontent.com/u/94523712?s=400&v=4" height=150 width=150> <br/> @Muakjwa](https://github.com/Muakjwa) | [<img src="https://avatars.githubusercontent.com/u/149148774?v=4" height=150 width=150> <br/> @monkcat](https://github.com/monkcat) | [<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAHUlEQVQ4T2NkYGBg+M+ABZhwFoMAGnDAAQCZsQGBANXGBikAAAAASUVORK5CYII=" width="150" height="150">] |
 </div>
 <br>
 
